@@ -23,7 +23,7 @@ function Footer() {
         </div>
 
         <div>
-          <h3 className="text-md font-semibold mb-4">Platfor</h3>
+          <h3 className="text-md font-semibold mb-4">Platform</h3>
           <ul className="space-y-2">
             {platformLinks.map((link, index) => {
               return (
