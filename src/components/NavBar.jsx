@@ -32,7 +32,7 @@ function navbar() {
             </a>
 
             <a
-              href="#"
+              href="/signup"
               className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
             >
               Create an account
