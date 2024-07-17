@@ -41,7 +41,7 @@ function Footer() {
         </div>
 
         <div>
-          <h3 className="text-md font-semibold mb-4">Resources</h3>
+          <h3 className="text-md font-semibold mb-4">Community</h3>
           <ul className="space-y-2">
             {resourcesLinks.map((link, index) => {
               return (
