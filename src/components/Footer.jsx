@@ -23,6 +23,24 @@ function Footer() {
         </div>
 
         <div>
+          <h3 className="text-md font-semibold mb-4">Platform</h3>
+          <ul className="space-y-2">
+            {resourcesLinks.map((link, index) => {
+              return (
+                <li key={index}>
+                  <a
+                    className="text-neutral-300  hover:text-white text-sm"
+                    href={link.href}
+                  >
+                    {link.text}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+
+        <div>
           <h3 className="text-md font-semibold mb-4">Resources</h3>
           <ul className="space-y-2">
             {resourcesLinks.map((link, index) => {
