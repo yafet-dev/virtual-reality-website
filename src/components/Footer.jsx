@@ -11,7 +11,7 @@ function Footer() {
               return (
                 <li key={index}>
                   <a
-                    className="text-neutral-300 font-thin text-sm"
+                    className="text-neutral-300  hover:text-white text-sm"
                     href={link.href}
                   >
                     {link.text}
