@@ -13,6 +13,7 @@ function Workflow() {
         <div className="p-2 w-full lg:w-1/2">
           <img src={codeImg} alt="code image" />
         </div>
+        <div className="pt-12 w-full lg:w-1/2"></div>
       </div>
     </div>
   );
