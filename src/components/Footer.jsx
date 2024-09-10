@@ -6,7 +6,13 @@ function Footer() {
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
         <div>
           <h3 className="text-md font-semibold mb-4">Resources</h3>
-          <ul>{resourcesLinks}</ul>
+          <ul>
+            {resourcesLinks.map((link, index) => {
+              <li key={index}>
+                <a href={link.href}>{link.text}</a>
+              </li>;
+            })}
+          </ul>
         </div>
       </div>
     </footer>
