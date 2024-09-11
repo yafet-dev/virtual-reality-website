@@ -10,7 +10,9 @@ function Footer() {
             {resourcesLinks.map((link, index) => {
               return (
                 <li key={index}>
-                  <a href={link.href}>{link.text}</a>
+                  <a className="text-neutral-300" href={link.href}>
+                    {link.text}
+                  </a>
                 </li>
               );
             })}
