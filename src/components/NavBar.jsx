@@ -20,7 +20,7 @@ function navbar() {
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => {
               return (
-                <li href={item.href} key={index} className="">
+                <li href={item.href} key={index} className="cursor-pointer">
                   {item.label}
                 </li>
               );
