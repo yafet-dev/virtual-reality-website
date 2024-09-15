@@ -1,5 +1,5 @@
 function FeatureSection() {
-  return <div></div>;
+  return <div>Feature section</div>;
 }
 
 export default FeatureSection;
