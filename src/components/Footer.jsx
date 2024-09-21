@@ -58,8 +58,6 @@ function Footer() {
           </ul>
         </div>
       </div>
-
-      <p>all copy rights reserved</p>
     </footer>
   );
 }
