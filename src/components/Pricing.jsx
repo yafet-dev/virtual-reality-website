@@ -24,6 +24,24 @@ function Pricing() {
                     /month
                   </span>
                 </p>
+                <ul>
+                  {option.features.map((feature, index) => {
+                    return (
+                      <li key={index} className="flex items-center mt-8">
+                        <CheckCircle2 />
+                        <span className="ml-2"> {feature}</span>
+                      </li>
+                    );
+                  })}
+                </ul>
+                <a
+                  className="inline-flex justify-center items-center text-center w-full 
+                h-12 p-5 mt-20 tracking-tight text-xl hover:bg-orange-500 border-orange-900 border rounded-lg transition duration-200
+                "
+                >
+                  {" "}
+                  Subscrie
+                </a>
               </div>
             </div>
           );
